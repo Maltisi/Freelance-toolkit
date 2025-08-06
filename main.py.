@@ -1,4 +1,4 @@
-from time_tracking import tracker
+8from time_tracking import tracker
 
 def main():
     while True:
@@ -17,6 +17,12 @@ def main():
             tracker.view_logs()
         else:
             print("Invalid choice. Please try again.")
-
 if __name__ == "__main__":
+    main()
+    
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+if __name__== "__main__":
     main()
